@@ -58,6 +58,9 @@ export default class ListContactScreen extends Component {
                     <View style={{flex: 1,}}>
                       <Text style={{}}>{item.lastName}</Text>
                     </View>
+                    <View>
+                        <Icon name="id-card-alt" size={40}/>
+                    </View>
                   </View>
                 </TouchableOpacity>
               )}
